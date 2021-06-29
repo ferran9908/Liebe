@@ -25,7 +25,7 @@ export default function Home() {
             <li className="mx-4">
               <a
                 href="https://twitter.com/sulaimanferran"
-                rel="noopener"
+                rel="noopener noreferrer"
                 target="_blank"
                 className="flex items-center"
               >
@@ -60,7 +60,7 @@ export default function Home() {
             <li className="mx-4">
               <a
                 href="https://github.com/sarahdayan/"
-                rel="noopener"
+                rel="noopener noreferrer"
                 target="_blank"
                 className="flex items-center"
               >
