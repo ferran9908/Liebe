@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         sans: ['"Gothic A1"'],
       },
+      colors: {
+        "dark-theme": "#151515",
+      },
     },
   },
   variants: {
