@@ -59,7 +59,7 @@ export default function Home() {
             </li>
             <li className="mx-4">
               <a
-                href="https://github.com/sarahdayan/"
+                href="https://github.com/ferran9908/"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="flex items-center"
