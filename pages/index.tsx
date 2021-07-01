@@ -1,10 +1,9 @@
-import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className="bg-dark-theme min-h-screen p-6 flex flex-col">
+    <div className="flex flex-col items-stretch">
       <div>
         <h1 className="text-white text-6xl font-bold tracking-wide leading-tight">
           Hello, I’m Ferran.
