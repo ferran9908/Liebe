@@ -9,7 +9,7 @@ export default function Home() {
         </h1>
         <div className="leading-loose">
           <p className="text-sm text-white mt-11">
-            I'm a Full Stack Developer who loves to build things 💙!
+            I&#39;m a Full Stack Developer who loves to build things 💙!
             <br /> I spend my time streaming on YouTube and tinkering with new
             tech 🚀 apart from working at{" "}
             <a
@@ -20,8 +20,8 @@ export default function Home() {
               Sigaram Tech.
             </a>
             <br />
-            I've attained peak nerdness in fitness and tech, so feel free to hit
-            me up on{" "}
+            I&#39;ve attained peak nerdiness in fitness and tech, so feel free
+            to hit me up on{" "}
             <a
               className="opacity-50 underline"
               href="https://www.twitter.com/sulaimanferran"
