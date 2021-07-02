@@ -1,5 +1,4 @@
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -9,16 +8,36 @@ export default function Home() {
           Hello, I’m Ferran.
         </h1>
         <div className="leading-loose">
-          <p className="text-sm text-white opacity-50 mt-11">
-            Love breaking and building stuff🛠! I do both front-end ⚜️ & back-end
-            🔒. I do open source for fun. On a mission to make CreedCode 🐺, a
-            profitable startup!
+          <p className="text-sm text-white mt-11">
+            I'm a Full Stack Developer who loves to build things 💙!
+            <br /> I spend my time streaming on YouTube and tinkering with new
+            tech 🚀 apart from working at{" "}
+            <a
+              className="opacity-50 underline"
+              href="https://www.sigaramtech.com"
+              rel="noopener noreferrer"
+            >
+              Sigaram Tech.
+            </a>
+            <br />
+            I've attained peak nerdness in fitness and tech, so feel free to hit
+            me up on{" "}
+            <a
+              className="opacity-50 underline"
+              href="https://www.twitter.com/sulaimanferran"
+              rel="noopener noreferrer"
+            >
+              Twitter!
+            </a>
           </p>
         </div>
         <div className="flex items-center mt-11">
-          <img
-            src="https://avatars.githubusercontent.com/u/42429912?v=4"
-            className="w-16 h-16 rounded-full mr-8"
+          <Image
+            src="/me.jpg"
+            className="rounded-full mr-8"
+            height={60}
+            width={60}
+            alt="Ferran"
           />
           <ul className="flex text-white">
             <li className="mx-4">
@@ -43,8 +62,8 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     viewBox="0 0 12 12"
                     aria-hidden="true"
                     className="flex-none stroke-current"
@@ -78,8 +97,8 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     viewBox="0 0 12 12"
                     aria-hidden="true"
                     className="flex-none stroke-current"

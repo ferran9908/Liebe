@@ -9,7 +9,7 @@ const Layout: React.FC<Props> = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Ferran Sulaiman</title>
+        <title>Ferran</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
