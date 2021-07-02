@@ -121,7 +121,7 @@ export default function Home() {
               Resume
             </h3>
             <p className="text-white text-xs mt-2">
-              Go here if you wanna know what I've been upto 🗓
+              Go here if you wanna know what I&#39;ve been upto 🗓
             </p>
           </article>
         </a>
