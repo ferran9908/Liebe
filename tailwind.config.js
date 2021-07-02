@@ -7,7 +7,8 @@ module.exports = {
         sans: ['"Gothic A1"'],
       },
       colors: {
-        "dark-theme": "#151515",
+        night: "#151515",
+        dusk: "#202022",
       },
     },
   },

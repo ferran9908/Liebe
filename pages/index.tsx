@@ -34,12 +34,12 @@ export default function Home() {
         <div className="flex items-center mt-11">
           <Image
             src="/me.jpg"
-            className="rounded-full mr-8"
+            className="rounded-full "
             height={60}
             width={60}
             alt="Ferran"
           />
-          <ul className="flex text-white">
+          <ul className="flex text-white ml-4">
             <li className="mx-4">
               <a
                 href="https://twitter.com/sulaimanferran"
@@ -112,6 +112,19 @@ export default function Home() {
             </li>
           </ul>
         </div>
+        <a
+          href="https://raw.githubusercontent.com/ferran9908/CV/master/Resume.pdf"
+          rel="noopener"
+        >
+          <article className="bg-dusk w-full h-32 mt-10 py-10 px-8">
+            <h3 className="text-xl leading-tight font-semibold text-white">
+              Resume
+            </h3>
+            <p className="text-white text-xs mt-2">
+              Go here if you wanna know what I've been upto 🗓
+            </p>
+          </article>
+        </a>
       </div>
     </div>
   );
