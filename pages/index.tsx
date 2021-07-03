@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-stretch">
+    <div className="flex flex-col md:flex-row items-stretch">
       <div>
         <h1 className="text-white text-6xl font-bold tracking-wide leading-tight">
           Hello, I’m Ferran.
         </h1>
         <div className="leading-loose">
-          <p className="text-sm text-white mt-11">
-            I&#39;m a Full Stack Developer who loves to build things 💙!
+          <p className="text-sm text-white mt-11 leading-loose">
+            I&#39;m a Full Stack Developer who loves to build things! 💙
             <br /> I spend my time streaming on YouTube and tinkering with new
             tech 🚀 apart from working at{" "}
             <a
@@ -20,15 +20,15 @@ export default function Home() {
               Sigaram Tech.
             </a>
             <br />
-            I&#39;ve attained peak nerdiness in fitness and tech, so feel free
-            to hit me up on{" "}
+            Hit me up on{" "}
             <a
               className="opacity-50 underline"
               href="https://www.twitter.com/sulaimanferran"
               rel="noopener noreferrer"
             >
-              Twitter!
-            </a>
+              Twitter
+            </a>{" "}
+            if you want to talk to me about Tech and Fitness!
           </p>
         </div>
         <div className="flex items-center mt-11">
