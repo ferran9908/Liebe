@@ -1,4 +1,9 @@
 import Image from "next/image";
+import styled from "styled-components";
+
+const TransitioningArticle = styled.article`
+  transition: all 0.2s ease-in-out;
+`;
 
 export default function Home() {
   return (
@@ -116,14 +121,14 @@ export default function Home() {
           href="https://raw.githubusercontent.com/ferran9908/CV/master/Resume.pdf"
           rel="noopener"
         >
-          <article className="bg-dusk w-full h-32 mt-10 py-10 px-8">
+          <TransitioningArticle className="bg-dusk w-full h-32 mt-10 py-10 px-8 md:transform md:hover:scale-110">
             <h3 className="text-xl leading-tight font-semibold text-white">
               Resume
             </h3>
             <p className="text-white text-xs mt-2">
               Go here if you wanna know what I&#39;ve been upto 🗓
             </p>
-          </article>
+          </TransitioningArticle>
         </a>
       </div>
     </div>
