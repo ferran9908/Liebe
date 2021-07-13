@@ -130,6 +130,16 @@ export default function Home() {
             </p>
           </TransitioningArticle>
         </a>
+        <a href="https://ferran.hashnode.dev" rel="noopener">
+          <TransitioningArticle className="bg-dusk w-full h-32 mt-10 py-10 px-8 md:transform md:hover:scale-110">
+            <h3 className="text-xl leading-tight font-semibold text-white">
+              Blog
+            </h3>
+            <p className="text-white text-xs mt-2">
+              My thoughts on the latest and greatest tech developments 🚀
+            </p>
+          </TransitioningArticle>
+        </a>
       </div>
     </div>
   );
