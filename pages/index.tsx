@@ -1,10 +1,23 @@
 import Image from "next/image";
+import { useEffect } from "react";
 import ProjectCard from "../components/ProjectCard";
+import useScrollHandler from "../hooks/useScrollHandler";
 import { TransitioningArticle } from "../styled-components/TransitioningArticle";
 
 export default function Home() {
+  const scroll = useScrollHandler(780);
+
+  useEffect(() => {
+    const projects: any = document.getElementById("projects");
+    if (scroll) {
+      projects.classList.add("bg-dusk", "pb-4");
+    } else {
+      projects.classList.remove("bg-dusk", "pb-4");
+    }
+  }, [scroll]);
+
   return (
-    <div className="lg:grid lg:place-items-center">
+    <div className="md:grid md:place-items-center">
       <div className="flex flex-col md:flex-row items-stretch">
         <div>
           <h1 className="text-white text-6xl font-bold tracking-wide leading-tight">
@@ -145,6 +158,21 @@ export default function Home() {
           </a>
         </div>
         <div className="md:px-12 items-stretch md:h-screen md:overflow-y-auto no-scrollbar">
+          <div
+            style={{
+              marginLeft: "-1.5rem",
+              marginTop: "10px",
+              marginRight: "-1.5rem",
+            }}
+            className="md:hidden z-10 shadow-2xl sticky top-0"
+          >
+            <p
+              id="projects"
+              className="pt-4 px-8 text-white font-semibold text-xs uppercase tracking-widest"
+            >
+              Projects
+            </p>
+          </div>
           <ProjectCard
             url="https://github.com/ferran9908/Async-Frontend"
             language="Typescript"
