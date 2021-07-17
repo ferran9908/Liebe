@@ -5,7 +5,7 @@ import useScrollHandler from "../hooks/useScrollHandler";
 import { TransitioningArticle } from "../styled-components/TransitioningArticle";
 
 export default function Home() {
-  const scroll = useScrollHandler(780);
+  const scroll = useScrollHandler(832);
 
   useEffect(() => {
     const projects: any = document.getElementById("projects");
