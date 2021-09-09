@@ -30,10 +30,10 @@ export default function Home() {
               tech 🚀 apart from working at{" "}
               <a
                 className="opacity-50 underline"
-                href="https://www.sigaramtech.com"
+                href="https://www.optum.in/"
                 rel="noopener noreferrer"
               >
-                Sigaram Tech.
+                Optum.
               </a>
               <br />
               Hit me up on{" "}
